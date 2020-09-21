@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		441A80E62519351E0096780A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A80E52519351E0096780A /* AppDelegate.swift */; };
+		441A80E82519351E0096780A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A80E72519351E0096780A /* SceneDelegate.swift */; };
+		441A80EA2519351E0096780A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A80E92519351E0096780A /* ViewController.swift */; };
+		441A80ED2519351E0096780A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441A80EB2519351E0096780A /* Main.storyboard */; };
+		441A80EF2519351F0096780A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441A80EE2519351F0096780A /* Assets.xcassets */; };
+		441A80F22519351F0096780A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441A80F02519351F0096780A /* LaunchScreen.storyboard */; };
+		441A80FD2519351F0096780A /* Pump_Rate_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A80FC2519351F0096780A /* Pump_Rate_CalculatorTests.swift */; };
+		441A81082519351F0096780A /* Pump_Rate_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A81072519351F0096780A /* Pump_Rate_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		441A80F92519351F0096780A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 441A80DA2519351E0096780A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 441A80E12519351E0096780A;
+			remoteInfo = "Pump Rate Calculator";
+		};
+		441A81042519351F0096780A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 441A80DA2519351E0096780A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 441A80E12519351E0096780A;
+			remoteInfo = "Pump Rate Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		441A80E22519351E0096780A /* Pump Rate Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pump Rate Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		441A80E52519351E0096780A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		441A80E72519351E0096780A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		441A80E92519351E0096780A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		441A80EC2519351E0096780A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		441A80EE2519351F0096780A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		441A80F12519351F0096780A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		441A80F32519351F0096780A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441A80F82519351F0096780A /* Pump Rate CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pump Rate CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		441A80FC2519351F0096780A /* Pump_Rate_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pump_Rate_CalculatorTests.swift; sourceTree = "<group>"; };
+		441A80FE2519351F0096780A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441A81032519351F0096780A /* Pump Rate CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pump Rate CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		441A81072519351F0096780A /* Pump_Rate_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pump_Rate_CalculatorUITests.swift; sourceTree = "<group>"; };
+		441A81092519351F0096780A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		441A80DF2519351E0096780A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441A80F52519351F0096780A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441A81002519351F0096780A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		441A80D92519351E0096780A = {
+			isa = PBXGroup;
+			children = (
+				441A80E42519351E0096780A /* Pump Rate Calculator */,
+				441A80FB2519351F0096780A /* Pump Rate CalculatorTests */,
+				441A81062519351F0096780A /* Pump Rate CalculatorUITests */,
+				441A80E32519351E0096780A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		441A80E32519351E0096780A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				441A80E22519351E0096780A /* Pump Rate Calculator.app */,
+				441A80F82519351F0096780A /* Pump Rate CalculatorTests.xctest */,
+				441A81032519351F0096780A /* Pump Rate CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		441A80E42519351E0096780A /* Pump Rate Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				441A80E52519351E0096780A /* AppDelegate.swift */,
+				441A80E72519351E0096780A /* SceneDelegate.swift */,
+				441A80E92519351E0096780A /* ViewController.swift */,
+				441A80EB2519351E0096780A /* Main.storyboard */,
+				441A80EE2519351F0096780A /* Assets.xcassets */,
+				441A80F02519351F0096780A /* LaunchScreen.storyboard */,
+				441A80F32519351F0096780A /* Info.plist */,
+			);
+			path = "Pump Rate Calculator";
+			sourceTree = "<group>";
+		};
+		441A80FB2519351F0096780A /* Pump Rate CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				441A80FC2519351F0096780A /* Pump_Rate_CalculatorTests.swift */,
+				441A80FE2519351F0096780A /* Info.plist */,
+			);
+			path = "Pump Rate CalculatorTests";
+			sourceTree = "<group>";
+		};
+		441A81062519351F0096780A /* Pump Rate CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				441A81072519351F0096780A /* Pump_Rate_CalculatorUITests.swift */,
+				441A81092519351F0096780A /* Info.plist */,
+			);
+			path = "Pump Rate CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		441A80E12519351E0096780A /* Pump Rate Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 441A810C2519351F0096780A /* Build configuration list for PBXNativeTarget "Pump Rate Calculator" */;
+			buildPhases = (
+				441A80DE2519351E0096780A /* Sources */,
+				441A80DF2519351E0096780A /* Frameworks */,
+				441A80E02519351E0096780A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pump Rate Calculator";
+			productName = "Pump Rate Calculator";
+			productReference = 441A80E22519351E0096780A /* Pump Rate Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		441A80F72519351F0096780A /* Pump Rate CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 441A810F2519351F0096780A /* Build configuration list for PBXNativeTarget "Pump Rate CalculatorTests" */;
+			buildPhases = (
+				441A80F42519351F0096780A /* Sources */,
+				441A80F52519351F0096780A /* Frameworks */,
+				441A80F62519351F0096780A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				441A80FA2519351F0096780A /* PBXTargetDependency */,
+			);
+			name = "Pump Rate CalculatorTests";
+			productName = "Pump Rate CalculatorTests";
+			productReference = 441A80F82519351F0096780A /* Pump Rate CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		441A81022519351F0096780A /* Pump Rate CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 441A81122519351F0096780A /* Build configuration list for PBXNativeTarget "Pump Rate CalculatorUITests" */;
+			buildPhases = (
+				441A80FF2519351F0096780A /* Sources */,
+				441A81002519351F0096780A /* Frameworks */,
+				441A81012519351F0096780A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				441A81052519351F0096780A /* PBXTargetDependency */,
+			);
+			name = "Pump Rate CalculatorUITests";
+			productName = "Pump Rate CalculatorUITests";
+			productReference = 441A81032519351F0096780A /* Pump Rate CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		441A80DA2519351E0096780A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					441A80E12519351E0096780A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					441A80F72519351F0096780A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 441A80E12519351E0096780A;
+					};
+					441A81022519351F0096780A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 441A80E12519351E0096780A;
+					};
+				};
+			};
+			buildConfigurationList = 441A80DD2519351E0096780A /* Build configuration list for PBXProject "Pump Rate Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 441A80D92519351E0096780A;
+			productRefGroup = 441A80E32519351E0096780A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				441A80E12519351E0096780A /* Pump Rate Calculator */,
+				441A80F72519351F0096780A /* Pump Rate CalculatorTests */,
+				441A81022519351F0096780A /* Pump Rate CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		441A80E02519351E0096780A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441A80F22519351F0096780A /* LaunchScreen.storyboard in Resources */,
+				441A80EF2519351F0096780A /* Assets.xcassets in Resources */,
+				441A80ED2519351E0096780A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441A80F62519351F0096780A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441A81012519351F0096780A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		441A80DE2519351E0096780A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441A80EA2519351E0096780A /* ViewController.swift in Sources */,
+				441A80E62519351E0096780A /* AppDelegate.swift in Sources */,
+				441A80E82519351E0096780A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441A80F42519351F0096780A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441A80FD2519351F0096780A /* Pump_Rate_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441A80FF2519351F0096780A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441A81082519351F0096780A /* Pump_Rate_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		441A80FA2519351F0096780A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 441A80E12519351E0096780A /* Pump Rate Calculator */;
+			targetProxy = 441A80F92519351F0096780A /* PBXContainerItemProxy */;
+		};
+		441A81052519351F0096780A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 441A80E12519351E0096780A /* Pump Rate Calculator */;
+			targetProxy = 441A81042519351F0096780A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		441A80EB2519351E0096780A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				441A80EC2519351E0096780A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		441A80F02519351F0096780A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				441A80F12519351F0096780A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		441A810A2519351F0096780A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		441A810B2519351F0096780A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		441A810D2519351F0096780A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYVEELC9QZ;
+				INFOPLIST_FILE = "Pump Rate Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		441A810E2519351F0096780A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYVEELC9QZ;
+				INFOPLIST_FILE = "Pump Rate Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		441A81102519351F0096780A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYVEELC9QZ;
+				INFOPLIST_FILE = "Pump Rate CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pump Rate Calculator.app/Pump Rate Calculator";
+			};
+			name = Debug;
+		};
+		441A81112519351F0096780A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYVEELC9QZ;
+				INFOPLIST_FILE = "Pump Rate CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pump Rate Calculator.app/Pump Rate Calculator";
+			};
+			name = Release;
+		};
+		441A81132519351F0096780A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYVEELC9QZ;
+				INFOPLIST_FILE = "Pump Rate CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pump Rate Calculator";
+			};
+			name = Debug;
+		};
+		441A81142519351F0096780A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYVEELC9QZ;
+				INFOPLIST_FILE = "Pump Rate CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pump Rate Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		441A80DD2519351E0096780A /* Build configuration list for PBXProject "Pump Rate Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441A810A2519351F0096780A /* Debug */,
+				441A810B2519351F0096780A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		441A810C2519351F0096780A /* Build configuration list for PBXNativeTarget "Pump Rate Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441A810D2519351F0096780A /* Debug */,
+				441A810E2519351F0096780A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		441A810F2519351F0096780A /* Build configuration list for PBXNativeTarget "Pump Rate CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441A81102519351F0096780A /* Debug */,
+				441A81112519351F0096780A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		441A81122519351F0096780A /* Build configuration list for PBXNativeTarget "Pump Rate CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441A81132519351F0096780A /* Debug */,
+				441A81142519351F0096780A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 441A80DA2519351E0096780A /* Project object */;
+}
