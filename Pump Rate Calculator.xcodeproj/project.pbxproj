@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		441A80F22519351F0096780A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441A80F02519351F0096780A /* LaunchScreen.storyboard */; };
 		441A80FD2519351F0096780A /* Pump_Rate_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A80FC2519351F0096780A /* Pump_Rate_CalculatorTests.swift */; };
 		441A81082519351F0096780A /* Pump_Rate_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A81072519351F0096780A /* Pump_Rate_CalculatorUITests.swift */; };
+		8578C9BD561F0BE0E794A426 /* Pods_Pump_Rate_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762EC2440E05161D433703AB /* Pods_Pump_Rate_Calculator.framework */; };
+		B1297D0C42A1AFBE1ACF93B0 /* Pods_Pump_Rate_Calculator_Pump_Rate_CalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC616300C82C81A84E5BDD5 /* Pods_Pump_Rate_Calculator_Pump_Rate_CalculatorUITests.framework */; };
+		EE5D7CBC078BD8FF6580B4C0 /* Pods_Pump_Rate_CalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 579EC32E166D33B4745095C8 /* Pods_Pump_Rate_CalculatorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EC616300C82C81A84E5BDD5 /* Pods_Pump_Rate_Calculator_Pump_Rate_CalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pump_Rate_Calculator_Pump_Rate_CalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		137351D7E6D5F1AA9A39C4BA /* Pods-Pump Rate Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pump Rate Calculator.release.xcconfig"; path = "Target Support Files/Pods-Pump Rate Calculator/Pods-Pump Rate Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		16B63C8153F070FB1004F118 /* Pods-Pump Rate CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pump Rate CalculatorTests.debug.xcconfig"; path = "Target Support Files/Pods-Pump Rate CalculatorTests/Pods-Pump Rate CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		229F2B81E24661C400322D1C /* Pods-Pump Rate Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pump Rate Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Pump Rate Calculator/Pods-Pump Rate Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		3609E0F97E748C6C2EC5B541 /* Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		441A80E22519351E0096780A /* Pump Rate Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pump Rate Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		441A80E52519351E0096780A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		441A80E72519351E0096780A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		441A81032519351F0096780A /* Pump Rate CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pump Rate CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		441A81072519351F0096780A /* Pump_Rate_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pump_Rate_CalculatorUITests.swift; sourceTree = "<group>"; };
 		441A81092519351F0096780A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579EC32E166D33B4745095C8 /* Pods_Pump_Rate_CalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pump_Rate_CalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		762EC2440E05161D433703AB /* Pods_Pump_Rate_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pump_Rate_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D823A980D51C9FEA2C41A4 /* Pods-Pump Rate CalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pump Rate CalculatorTests.release.xcconfig"; path = "Target Support Files/Pods-Pump Rate CalculatorTests/Pods-Pump Rate CalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		BECD9CE5C9A5464B74E11E5D /* Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.release.xcconfig"; path = "Target Support Files/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8578C9BD561F0BE0E794A426 /* Pods_Pump_Rate_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5D7CBC078BD8FF6580B4C0 /* Pods_Pump_Rate_CalculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1297D0C42A1AFBE1ACF93B0 /* Pods_Pump_Rate_Calculator_Pump_Rate_CalculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				441A80FB2519351F0096780A /* Pump Rate CalculatorTests */,
 				441A81062519351F0096780A /* Pump Rate CalculatorUITests */,
 				441A80E32519351E0096780A /* Products */,
+				BC8A97C392F7401DCC14EA74 /* Pods */,
+				67B5F3132965BCE6A7061021 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = "Pump Rate CalculatorUITests";
 			sourceTree = "<group>";
 		};
+		67B5F3132965BCE6A7061021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				762EC2440E05161D433703AB /* Pods_Pump_Rate_Calculator.framework */,
+				0EC616300C82C81A84E5BDD5 /* Pods_Pump_Rate_Calculator_Pump_Rate_CalculatorUITests.framework */,
+				579EC32E166D33B4745095C8 /* Pods_Pump_Rate_CalculatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC8A97C392F7401DCC14EA74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				229F2B81E24661C400322D1C /* Pods-Pump Rate Calculator.debug.xcconfig */,
+				137351D7E6D5F1AA9A39C4BA /* Pods-Pump Rate Calculator.release.xcconfig */,
+				3609E0F97E748C6C2EC5B541 /* Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.debug.xcconfig */,
+				BECD9CE5C9A5464B74E11E5D /* Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.release.xcconfig */,
+				16B63C8153F070FB1004F118 /* Pods-Pump Rate CalculatorTests.debug.xcconfig */,
+				91D823A980D51C9FEA2C41A4 /* Pods-Pump Rate CalculatorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 441A810C2519351F0096780A /* Build configuration list for PBXNativeTarget "Pump Rate Calculator" */;
 			buildPhases = (
+				9227726BA47448DCB62C2DD6 /* [CP] Check Pods Manifest.lock */,
 				441A80DE2519351E0096780A /* Sources */,
 				441A80DF2519351E0096780A /* Frameworks */,
 				441A80E02519351E0096780A /* Resources */,
+				DAA52A9BC0E88DFE3B77EE1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 441A810F2519351F0096780A /* Build configuration list for PBXNativeTarget "Pump Rate CalculatorTests" */;
 			buildPhases = (
+				844616BE882D7DC6102C9799 /* [CP] Check Pods Manifest.lock */,
 				441A80F42519351F0096780A /* Sources */,
 				441A80F52519351F0096780A /* Frameworks */,
 				441A80F62519351F0096780A /* Resources */,
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 441A81122519351F0096780A /* Build configuration list for PBXNativeTarget "Pump Rate CalculatorUITests" */;
 			buildPhases = (
+				E9A5740ED9AF928CE4C2CCB9 /* [CP] Check Pods Manifest.lock */,
 				441A80FF2519351F0096780A /* Sources */,
 				441A81002519351F0096780A /* Frameworks */,
 				441A81012519351F0096780A /* Resources */,
+				29E73700EAA496B677B80BF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +297,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29E73700EAA496B677B80BF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		844616BE882D7DC6102C9799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pump Rate CalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9227726BA47448DCB62C2DD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pump Rate Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA52A9BC0E88DFE3B77EE1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pump Rate Calculator/Pods-Pump Rate Calculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pump Rate Calculator/Pods-Pump Rate Calculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pump Rate Calculator/Pods-Pump Rate Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A5740ED9AF928CE4C2CCB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		441A80DE2519351E0096780A /* Sources */ = {
@@ -433,12 +581,14 @@
 		};
 		441A810D2519351F0096780A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229F2B81E24661C400322D1C /* Pods-Pump Rate Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DYVEELC9QZ;
 				INFOPLIST_FILE = "Pump Rate Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +602,14 @@
 		};
 		441A810E2519351F0096780A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137351D7E6D5F1AA9A39C4BA /* Pods-Pump Rate Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DYVEELC9QZ;
 				INFOPLIST_FILE = "Pump Rate Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +623,7 @@
 		};
 		441A81102519351F0096780A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B63C8153F070FB1004F118 /* Pods-Pump Rate CalculatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +646,7 @@
 		};
 		441A81112519351F0096780A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D823A980D51C9FEA2C41A4 /* Pods-Pump Rate CalculatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +669,7 @@
 		};
 		441A81132519351F0096780A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3609E0F97E748C6C2EC5B541 /* Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +690,7 @@
 		};
 		441A81142519351F0096780A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BECD9CE5C9A5464B74E11E5D /* Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
