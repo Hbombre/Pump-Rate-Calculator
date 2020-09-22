@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		4408AC24251A4FE300480287 /* APS_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408AC23251A4FE300480287 /* APS_Extensions.swift */; };
 		4408AC2C251A53F800480287 /* oiltrails-promoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4408AC2B251A53F700480287 /* oiltrails-promoButton.png */; };
+		4408AC36251A65F900480287 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4408AC34251A65F900480287 /* Interface.storyboard */; };
+		4408AC38251A65FA00480287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4408AC37251A65FA00480287 /* Assets.xcassets */; };
+		4408AC3F251A65FA00480287 /* prc_watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4408AC3E251A65FA00480287 /* prc_watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4408AC44251A65FA00480287 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408AC43251A65FA00480287 /* InterfaceController.swift */; };
+		4408AC46251A65FA00480287 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408AC45251A65FA00480287 /* ExtensionDelegate.swift */; };
+		4408AC48251A65FA00480287 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408AC47251A65FA00480287 /* NotificationController.swift */; };
+		4408AC4A251A65FA00480287 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408AC49251A65FA00480287 /* ComplicationController.swift */; };
+		4408AC4C251A65FA00480287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4408AC4B251A65FA00480287 /* Assets.xcassets */; };
+		4408AC51251A65FA00480287 /* prc_watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4408AC32251A65F900480287 /* prc_watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		441A80E62519351E0096780A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A80E52519351E0096780A /* AppDelegate.swift */; };
 		441A80E82519351E0096780A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A80E72519351E0096780A /* SceneDelegate.swift */; };
 		441A80EA2519351E0096780A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A80E92519351E0096780A /* ViewController.swift */; };
@@ -23,6 +32,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4408AC40251A65FA00480287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 441A80DA2519351E0096780A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4408AC3D251A65FA00480287;
+			remoteInfo = "prc_watch Extension";
+		};
+		4408AC4F251A65FA00480287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 441A80DA2519351E0096780A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4408AC31251A65F900480287;
+			remoteInfo = prc_watch;
+		};
 		441A80F92519351F0096780A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 441A80DA2519351E0096780A /* Project object */;
@@ -39,6 +62,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4408AC55251A65FA00480287 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4408AC3F251A65FA00480287 /* prc_watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4408AC59251A65FA00480287 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4408AC51251A65FA00480287 /* prc_watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0EC616300C82C81A84E5BDD5 /* Pods_Pump_Rate_Calculator_Pump_Rate_CalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pump_Rate_Calculator_Pump_Rate_CalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		137351D7E6D5F1AA9A39C4BA /* Pods-Pump Rate Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pump Rate Calculator.release.xcconfig"; path = "Target Support Files/Pods-Pump Rate Calculator/Pods-Pump Rate Calculator.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +95,18 @@
 		3609E0F97E748C6C2EC5B541 /* Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4408AC23251A4FE300480287 /* APS_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APS_Extensions.swift; sourceTree = "<group>"; };
 		4408AC2B251A53F700480287 /* oiltrails-promoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oiltrails-promoButton.png"; sourceTree = "<group>"; };
+		4408AC32251A65F900480287 /* prc_watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prc_watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4408AC35251A65F900480287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4408AC37251A65FA00480287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4408AC39251A65FA00480287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4408AC3E251A65FA00480287 /* prc_watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "prc_watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4408AC43251A65FA00480287 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4408AC45251A65FA00480287 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4408AC47251A65FA00480287 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4408AC49251A65FA00480287 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		4408AC4B251A65FA00480287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4408AC4D251A65FA00480287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4408AC4E251A65FA00480287 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		441A80E22519351E0096780A /* Pump Rate Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pump Rate Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		441A80E52519351E0096780A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		441A80E72519351E0096780A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +128,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4408AC3B251A65FA00480287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		441A80DF2519351E0096780A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,12 +162,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4408AC33251A65F900480287 /* prc_watch */ = {
+			isa = PBXGroup;
+			children = (
+				4408AC34251A65F900480287 /* Interface.storyboard */,
+				4408AC37251A65FA00480287 /* Assets.xcassets */,
+				4408AC39251A65FA00480287 /* Info.plist */,
+			);
+			path = prc_watch;
+			sourceTree = "<group>";
+		};
+		4408AC42251A65FA00480287 /* prc_watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4408AC43251A65FA00480287 /* InterfaceController.swift */,
+				4408AC45251A65FA00480287 /* ExtensionDelegate.swift */,
+				4408AC47251A65FA00480287 /* NotificationController.swift */,
+				4408AC49251A65FA00480287 /* ComplicationController.swift */,
+				4408AC4B251A65FA00480287 /* Assets.xcassets */,
+				4408AC4D251A65FA00480287 /* Info.plist */,
+				4408AC4E251A65FA00480287 /* PushNotificationPayload.apns */,
+			);
+			path = "prc_watch Extension";
+			sourceTree = "<group>";
+		};
 		441A80D92519351E0096780A = {
 			isa = PBXGroup;
 			children = (
 				441A80E42519351E0096780A /* Pump Rate Calculator */,
 				441A80FB2519351F0096780A /* Pump Rate CalculatorTests */,
 				441A81062519351F0096780A /* Pump Rate CalculatorUITests */,
+				4408AC33251A65F900480287 /* prc_watch */,
+				4408AC42251A65FA00480287 /* prc_watch Extension */,
 				441A80E32519351E0096780A /* Products */,
 				BC8A97C392F7401DCC14EA74 /* Pods */,
 				67B5F3132965BCE6A7061021 /* Frameworks */,
@@ -113,6 +206,8 @@
 				441A80E22519351E0096780A /* Pump Rate Calculator.app */,
 				441A80F82519351F0096780A /* Pump Rate CalculatorTests.xctest */,
 				441A81032519351F0096780A /* Pump Rate CalculatorUITests.xctest */,
+				4408AC32251A65F900480287 /* prc_watch.app */,
+				4408AC3E251A65FA00480287 /* prc_watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +272,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4408AC31251A65F900480287 /* prc_watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4408AC56251A65FA00480287 /* Build configuration list for PBXNativeTarget "prc_watch" */;
+			buildPhases = (
+				4408AC30251A65F900480287 /* Resources */,
+				4408AC55251A65FA00480287 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4408AC41251A65FA00480287 /* PBXTargetDependency */,
+			);
+			name = prc_watch;
+			productName = prc_watch;
+			productReference = 4408AC32251A65F900480287 /* prc_watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4408AC3D251A65FA00480287 /* prc_watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4408AC52251A65FA00480287 /* Build configuration list for PBXNativeTarget "prc_watch Extension" */;
+			buildPhases = (
+				4408AC3A251A65FA00480287 /* Sources */,
+				4408AC3B251A65FA00480287 /* Frameworks */,
+				4408AC3C251A65FA00480287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prc_watch Extension";
+			productName = "prc_watch Extension";
+			productReference = 4408AC3E251A65FA00480287 /* prc_watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		441A80E12519351E0096780A /* Pump Rate Calculator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 441A810C2519351F0096780A /* Build configuration list for PBXNativeTarget "Pump Rate Calculator" */;
@@ -186,10 +315,12 @@
 				441A80DF2519351E0096780A /* Frameworks */,
 				441A80E02519351E0096780A /* Resources */,
 				DAA52A9BC0E88DFE3B77EE1F /* [CP] Embed Pods Frameworks */,
+				4408AC59251A65FA00480287 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4408AC50251A65FA00480287 /* PBXTargetDependency */,
 			);
 			name = "Pump Rate Calculator";
 			productName = "Pump Rate Calculator";
@@ -244,6 +375,12 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					4408AC31251A65F900480287 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					4408AC3D251A65FA00480287 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					441A80E12519351E0096780A = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -273,11 +410,30 @@
 				441A80E12519351E0096780A /* Pump Rate Calculator */,
 				441A80F72519351F0096780A /* Pump Rate CalculatorTests */,
 				441A81022519351F0096780A /* Pump Rate CalculatorUITests */,
+				4408AC31251A65F900480287 /* prc_watch */,
+				4408AC3D251A65FA00480287 /* prc_watch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4408AC30251A65F900480287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4408AC38251A65FA00480287 /* Assets.xcassets in Resources */,
+				4408AC36251A65F900480287 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4408AC3C251A65FA00480287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4408AC4C251A65FA00480287 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		441A80E02519351E0096780A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,6 +565,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4408AC3A251A65FA00480287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4408AC48251A65FA00480287 /* NotificationController.swift in Sources */,
+				4408AC4A251A65FA00480287 /* ComplicationController.swift in Sources */,
+				4408AC46251A65FA00480287 /* ExtensionDelegate.swift in Sources */,
+				4408AC44251A65FA00480287 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		441A80DE2519351E0096780A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -439,6 +606,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4408AC41251A65FA00480287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4408AC3D251A65FA00480287 /* prc_watch Extension */;
+			targetProxy = 4408AC40251A65FA00480287 /* PBXContainerItemProxy */;
+		};
+		4408AC50251A65FA00480287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4408AC31251A65F900480287 /* prc_watch */;
+			targetProxy = 4408AC4F251A65FA00480287 /* PBXContainerItemProxy */;
+		};
 		441A80FA2519351F0096780A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 441A80E12519351E0096780A /* Pump Rate Calculator */;
@@ -452,6 +629,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4408AC34251A65F900480287 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4408AC35251A65F900480287 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		441A80EB2519351E0096780A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -471,6 +656,90 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4408AC53251A65FA00480287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYVEELC9QZ;
+				INFOPLIST_FILE = "prc_watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-Calculator.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		4408AC54251A65FA00480287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYVEELC9QZ;
+				INFOPLIST_FILE = "prc_watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-Calculator.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		4408AC57251A65FA00480287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYVEELC9QZ;
+				IBSC_MODULE = prc_watch_Extension;
+				INFOPLIST_FILE = prc_watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-Calculator.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		4408AC58251A65FA00480287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYVEELC9QZ;
+				IBSC_MODULE = prc_watch_Extension;
+				INFOPLIST_FILE = prc_watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-Calculator.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
 		441A810A2519351F0096780A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -720,6 +989,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4408AC52251A65FA00480287 /* Build configuration list for PBXNativeTarget "prc_watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4408AC53251A65FA00480287 /* Debug */,
+				4408AC54251A65FA00480287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4408AC56251A65FA00480287 /* Build configuration list for PBXNativeTarget "prc_watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4408AC57251A65FA00480287 /* Debug */,
+				4408AC58251A65FA00480287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		441A80DD2519351E0096780A /* Build configuration list for PBXProject "Pump Rate Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

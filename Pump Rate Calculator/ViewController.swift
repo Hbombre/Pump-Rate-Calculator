@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import WatchConnectivity
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, WCSessionDelegate {
     
     @IBOutlet weak var SPM_label: UILabel!
     @IBOutlet weak var startTime_label: UILabel!
@@ -27,12 +28,16 @@ class ViewController: UIViewController {
     var timer = Timer()
     let defaults = UserDefaults.standard
     
+    var watchSession: WCSession?
+    
     enum dataKeys : String {
         case efficiency, coefficient, timesLoaded, startTime, spm
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        configureWatchKitSesstion()
         
         hideKeyboardWhenTappedAround()
         
@@ -122,6 +127,15 @@ class ViewController: UIViewController {
         
     }
     
+    func configureWatchKitSesstion() {
+      
+      if WCSession.isSupported() {//4.1
+        watchSession = WCSession.default//4.2
+        watchSession?.delegate = self//4.3
+        watchSession?.activate()//4.4
+      }
+    }
+    
     @objc func update_volumeAway_timeElapsed(){
         let timeElapsed = Date.init().timeIntervalSince(startTime!)
         let volAway = (timeElapsed / 60) * pumpRate
@@ -180,6 +194,7 @@ class ViewController: UIViewController {
         }else{
             coefficient = Double(coefficient_textfield.text!)!
             defaults.setValue(coefficient, forKey: dataKeys.coefficient.rawValue)
+            share_coefficient_toWatch()
         }
     }
     
@@ -196,6 +211,30 @@ class ViewController: UIViewController {
             let generator = UINotificationFeedbackGenerator()
             generator.notificationOccurred(.error)
         }
+    }
+    
+    func share_coefficient_toWatch(){
+        if let validSession = self.watchSession, validSession.isReachable {
+          let data: [String: Any] = ["coefficient": coefficient]
+            print("Sending data to watch: \(data)")
+          validSession.sendMessage(data, replyHandler: nil, errorHandler: nil)
+        }else{
+            print("No available watch connection")
+        }
+    }
+    
+    //WCSessionDelegate methods
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        
+    }
+    
+    func sessionDidBecomeInactive(_ session: WCSession) {
+        
+    }
+    
+    func sessionDidDeactivate(_ session: WCSession) {
+        
+        
     }
     
 }
