@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4408AC24251A4FE300480287 /* APS_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408AC23251A4FE300480287 /* APS_Extensions.swift */; };
+		4408AC2C251A53F800480287 /* oiltrails-promoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4408AC2B251A53F700480287 /* oiltrails-promoButton.png */; };
 		441A80E62519351E0096780A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A80E52519351E0096780A /* AppDelegate.swift */; };
 		441A80E82519351E0096780A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A80E72519351E0096780A /* SceneDelegate.swift */; };
 		441A80EA2519351E0096780A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A80E92519351E0096780A /* ViewController.swift */; };
@@ -43,6 +45,8 @@
 		16B63C8153F070FB1004F118 /* Pods-Pump Rate CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pump Rate CalculatorTests.debug.xcconfig"; path = "Target Support Files/Pods-Pump Rate CalculatorTests/Pods-Pump Rate CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		229F2B81E24661C400322D1C /* Pods-Pump Rate Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pump Rate Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Pump Rate Calculator/Pods-Pump Rate Calculator.debug.xcconfig"; sourceTree = "<group>"; };
 		3609E0F97E748C6C2EC5B541 /* Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests/Pods-Pump Rate Calculator-Pump Rate CalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4408AC23251A4FE300480287 /* APS_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APS_Extensions.swift; sourceTree = "<group>"; };
+		4408AC2B251A53F700480287 /* oiltrails-promoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oiltrails-promoButton.png"; sourceTree = "<group>"; };
 		441A80E22519351E0096780A /* Pump Rate Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pump Rate Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		441A80E52519351E0096780A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		441A80E72519351E0096780A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,10 +121,12 @@
 			isa = PBXGroup;
 			children = (
 				441A80E52519351E0096780A /* AppDelegate.swift */,
+				4408AC23251A4FE300480287 /* APS_Extensions.swift */,
 				441A80E72519351E0096780A /* SceneDelegate.swift */,
 				441A80E92519351E0096780A /* ViewController.swift */,
 				441A80EB2519351E0096780A /* Main.storyboard */,
 				441A80EE2519351F0096780A /* Assets.xcassets */,
+				4408AC2B251A53F700480287 /* oiltrails-promoButton.png */,
 				441A80F02519351F0096780A /* LaunchScreen.storyboard */,
 				441A80F32519351F0096780A /* Info.plist */,
 			);
@@ -277,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				441A80F22519351F0096780A /* LaunchScreen.storyboard in Resources */,
+				4408AC2C251A53F800480287 /* oiltrails-promoButton.png in Resources */,
 				441A80EF2519351F0096780A /* Assets.xcassets in Resources */,
 				441A80ED2519351E0096780A /* Main.storyboard in Resources */,
 			);
@@ -408,6 +415,7 @@
 			files = (
 				441A80EA2519351E0096780A /* ViewController.swift in Sources */,
 				441A80E62519351E0096780A /* AppDelegate.swift in Sources */,
+				4408AC24251A4FE300480287 /* APS_Extensions.swift in Sources */,
 				441A80E82519351E0096780A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
