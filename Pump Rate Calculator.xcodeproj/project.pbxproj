@@ -668,7 +668,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-Calculator.watchkitapp.watchkitextension";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hewlett.PumpRateCalculator.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -690,7 +691,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-Calculator.watchkitapp.watchkitextension";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hewlett.PumpRateCalculator.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -710,7 +712,8 @@
 				DEVELOPMENT_TEAM = DYVEELC9QZ;
 				IBSC_MODULE = prc_watch_Extension;
 				INFOPLIST_FILE = prc_watch/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-Calculator.watchkitapp";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hewlett.PumpRateCalculator.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -730,7 +733,8 @@
 				DEVELOPMENT_TEAM = DYVEELC9QZ;
 				IBSC_MODULE = prc_watch_Extension;
 				INFOPLIST_FILE = prc_watch/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-Calculator.watchkitapp";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hewlett.PumpRateCalculator.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -870,7 +874,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-Calculator";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hewlett.PumpRateCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -891,7 +896,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ashpointltd.Pump-Rate-Calculator";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hewlett.PumpRateCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -226,6 +226,11 @@ class ViewController: UIViewController, WCSessionDelegate {
     //WCSessionDelegate methods
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
         
+        if activationState == .activated{
+            share_coefficient_toWatch()
+
+        }
+        
     }
     
     func sessionDidBecomeInactive(_ session: WCSession) {
@@ -236,6 +241,15 @@ class ViewController: UIViewController, WCSessionDelegate {
         
         
     }
+    
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+       print("received message: \(message)")
+       DispatchQueue.main.async { //6
+        if (message["watch"] as? String) != nil {
+            self.share_coefficient_toWatch()
+         }
+       }
+     }
     
 }
 

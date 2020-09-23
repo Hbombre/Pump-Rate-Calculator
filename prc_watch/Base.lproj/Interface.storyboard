@@ -23,6 +23,7 @@
                             </connections>
                         </button>
                         <button width="1" alignment="left" title="Tap To Get Rate" id="TFS-ry-W81">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="mainButton_tapped:" destination="AgC-eL-Hgc" id="suu-mK-Ywx"/>
                             </connections>

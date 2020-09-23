@@ -36,7 +36,6 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
         shareSession.delegate = self
         shareSession.activate()
         
-        print("Watch app active")
     }
     
     override func willActivate() {
@@ -44,6 +43,8 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
         super.willActivate()
         
         loadValuesFromDefaults()
+        
+        requestCoefficient()
     }
     
     override func didDeactivate() {
@@ -132,7 +133,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     }
 
     @IBAction func resetButton_tapped(_ sender: Any) {
-             
+        
         timer.invalidate()
         startTime = nil
         setDefaultLabelValues()
@@ -157,16 +158,20 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
 
     }
     
-    
+    func requestCoefficient(){
+        shareSession.sendMessage(["watch":"coef"], replyHandler: nil, errorHandler: nil)
+    }
     
 
     //WCSessionDelegate methods
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
         
+        if activationState == .activated{
+            requestCoefficient()
+        }
     }
-    
+        
     func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
-        print("Recieved Data: \(message)")
         
         if let coefficient = message["coefficient"] as? Double{
             self.coefficient = coefficient
